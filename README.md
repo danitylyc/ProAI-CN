@@ -1,15 +1,15 @@
 <div align="center">
-<h1> 🛡️ ProAI 大模型安全评估平台 </h1>
+<h1> 🛡️ ProAI-CN 大模型安全评估平台 </h1>
 </div>
 
 <p>
-ProAI 是一个聚焦于 AI 安全测试与代码风险审计的开源平台，适用于大模型安全评估、提示词测试集管理，以及 MCP 源码包的自动化扫描分析。
+ProAI-CN 是一个聚焦于 AI 安全测试与代码风险审计的开源平台，适用于大模型安全评估、提示词测试集管理，以及 MCP 源码包的自动化扫描分析。
 项目同时提供前端操作台与后端评估服务，支持 OpenAI / Ollama 模型接入，能够帮助团队更快完成模型风险测试、漏洞发现、评估留档和结果复盘。
 <p>
 
 > **项目来源说明**
 >
-> ProAI 的产品定位、评估流程和部分交互设计参考了开源项目 [Promptfoo](https://github.com/promptfoo/promptfoo)。本项目不是 Promptfoo 官方项目，也不代表 Promptfoo 官方立场；当前仓库主要提供面向中文用户的操作面板汉化，以及围绕本地化使用场景进行的功能整合和安全性优化。
+> ProAI-CN 的产品定位、评估流程和部分交互设计参考了开源项目 [Promptfoo](https://github.com/promptfoo/promptfoo)。本项目不是 Promptfoo 官方项目，也不代表 Promptfoo 官方立场；当前仓库主要提供面向中文用户的操作面板汉化，以及围绕本地化使用场景进行的功能整合和安全性优化。
 >
 > 具体优化包括：中文化的评估操作台、SQLite 本地持久化、MCP 源码包扫描流程、评估报告展示，以及上传大小限制、ZIP 解压安全校验和临时文件/内存清理等工程加固。Promptfoo 原项目采用 MIT License，相关版权和许可信息请参阅其 [LICENSE](https://github.com/promptfoo/promptfoo/blob/main/LICENSE)；本仓库的代码以根目录 [AGPL-3.0 License](LICENSE) 为准。
 
@@ -18,7 +18,7 @@ ProAI 是一个聚焦于 AI 安全测试与代码风险审计的开源平台，�
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.2-61dafb.svg)](https://reactjs.org/)
 [![Express](https://img.shields.io/badge/Express-5.2-green.svg)](https://expressjs.com/)
-[![License](https://img.shields.io/badge/license-AGPL--3.0-yellow)](https://github.com/danitylyc/ProAI/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-yellow)](https://github.com/danitylyc/ProAI-CN/blob/main/LICENSE)
 
 </div>
 
@@ -148,7 +148,7 @@ MCP 扫描会限制压缩包条目数和解压后的总容量，并在上传后 
 ##  目录结构
 
 ```
-proai/
+proai-cn/
 ├─ public/                 # 静态资源
 ├─ server/                 # Express API 与评估任务执行逻辑
 ├─ src/
@@ -208,7 +208,7 @@ MCP 扫描器采用多阶段流水线架构：
 
 ##  开源协议
 
-[AGPL-3.0 License](LICENSE) © 2026 ProAI Contributors
+[AGPL-3.0 License](LICENSE) © 2026 ProAI-CN Contributors
 
 ## 特别鸣谢
 本项目通用测试集使用 Rogue Security 提供的数据集：
@@ -217,4 +217,4 @@ https://huggingface.co/datasets/rogue-security/prompt-injections-benchmark
 ## 不止于此
 
 ![V2.0](img/V2.0.png)
-*By the way —— 更强大的 ProAI v2.0 商用版 COMING SOON*
+*By the way —— 更强大的 ProAI-CN v2.0 商用版 COMING SOON*

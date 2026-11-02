@@ -83,7 +83,7 @@ export function QuickStart() {
           {
             element: 'a[href="/"]',
             popover: {
-              title: '欢迎使用 ProAI',
+              title: '欢迎使用 ProAI-CN',
               description: '让我们快速了解系统的主要功能模块'
             }
           },
@@ -172,7 +172,7 @@ export function QuickStart() {
           margin: '0 0 16px 0',
           letterSpacing: '-0.02em',
         }}>
-          欢迎使用华清未央 ProAI 大模型安全评估系统
+          欢迎使用华清未央 ProAI-CN 大模型安全评估系统
         </h1>
         <p style={{
           fontSize: 14,
@@ -259,7 +259,7 @@ export function QuickStart() {
         color: 'var(--muted-foreground)',
         fontSize: 12,
       }}>
-        © 2026 华清未央 · 玉衡实验室 ProAI. All rights reserved.
+        © 2026 华清未央 · 玉衡实验室 ProAI-CN. All rights reserved.
       </div>
 
     </div>

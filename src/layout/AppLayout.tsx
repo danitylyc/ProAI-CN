@@ -84,8 +84,8 @@ export function AppLayout() {
       <aside className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
         <div className="sidebarHeader">
           <div className="brand">
-            <img src="/logo.png" alt="ProAI" className="brandLogo" />
-            {!collapsed && <span className="brandText">ProAI</span>}
+            <img src="/logo.png" alt="ProAI-CN" className="brandLogo" />
+            {!collapsed && <span className="brandText">ProAI-CN</span>}
           </div>
           <button
             className="collapseBtn"
