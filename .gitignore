@@ -27,3 +27,5 @@ temp/
 
 # Local SQLite runtime data (keep the schema/migrations in source control)
 data/*.db
+__pycache__/
+*.py[cod]
