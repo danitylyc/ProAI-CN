@@ -7,12 +7,18 @@ ProAI 是一个聚焦于 AI 安全测试与代码风险审计的开源平台，�
 项目同时提供前端操作台与后端评估服务，支持 OpenAI / Ollama 模型接入，能够帮助团队更快完成模型风险测试、漏洞发现、评估留档和结果复盘。
 <p>
 
+> **项目来源说明**
+>
+> ProAI 的产品定位、评估流程和部分交互设计参考了开源项目 [Promptfoo](https://github.com/promptfoo/promptfoo)。本项目不是 Promptfoo 官方项目，也不代表 Promptfoo 官方立场；当前仓库主要提供面向中文用户的操作面板汉化，以及围绕本地化使用场景进行的功能整合和安全性优化。
+>
+> 具体优化包括：中文化的评估操作台、SQLite 本地持久化、MCP 源码包扫描流程、评估报告展示，以及上传大小限制、ZIP 解压安全校验和临时文件/内存清理等工程加固。Promptfoo 原项目采用 MIT License，相关版权和许可信息请参阅其 [LICENSE](https://github.com/promptfoo/promptfoo/blob/main/LICENSE)；本仓库的代码以根目录 [AGPL-3.0 License](LICENSE) 为准。
+
 <div align="center">
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9-blue.svg)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.2-61dafb.svg)](https://reactjs.org/)
 [![Express](https://img.shields.io/badge/Express-5.2-green.svg)](https://expressjs.com/)
-[![License](https://img.shields.io/badge/license-AGPL--3.0-yellow)](https://github.com/AscendGrace/ProAI/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-AGPL--3.0-yellow)](https://github.com/danitylyc/ProAI/blob/main/LICENSE)
 
 </div>
 
